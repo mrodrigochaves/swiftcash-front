@@ -3,7 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-  { path:'', pathMatch:'full'}
+  { path:'', pathMatch:'full', redirectTo:'home' },
+  { path:'home',
+  loadChildren: () => import('./swiftcash/swiftcash.module').then(m => m.SwiftCashModule) }
 ];
 
 @NgModule({
