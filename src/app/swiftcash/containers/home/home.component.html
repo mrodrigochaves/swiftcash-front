@@ -1,1 +1,14 @@
-<p>home works!</p>
+<div  class="container">
+  <div class="row">
+    <div class="col">
+      <carousel>
+        <slide *ngFor="let slide of slides">
+          <img [src]="slide.image" [alt]="slide.text" style="width: 100%">
+          <div class="carousel-caption">
+            <h3>{{ slide.text }}</h3>
+          </div>
+        </slide>
+      </carousel>
+    </div>
+  </div>
+</div>
