@@ -1,0 +1,34 @@
+.carousel-container {
+  width: 100%;
+  max-width: 1200px; /* Defina o valor máximo que você deseja para a largura do carrossel */
+  margin: 0 auto; /* Centralize o carrossel na página */
+  position: relative;
+}
+
+.carousel-container .carousel {
+  width: 100%;
+}
+
+.carousel-container .carousel-inner {
+  width: 100%;
+  max-height: 500px; /* Defina o valor máximo que você deseja para a altura do carrossel */
+}
+
+.carousel-container .carousel-inner .carousel-item {
+  width: 100%;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-container .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
