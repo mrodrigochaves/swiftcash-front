@@ -7,7 +7,7 @@ import { CarouselConfig } from 'ngx-bootstrap/carousel';
   providers: [
     { provide: CarouselConfig, useValue: { interval: 1500, noPause: false, showIndicators: true } }
  ],
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
   slides = [

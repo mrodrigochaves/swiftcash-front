@@ -1,7 +1,7 @@
+
 .carousel-container {
   width: 100%;
-  max-width: 1200px; /* Defina o valor máximo que você deseja para a largura do carrossel */
-  margin: 0 auto; /* Centralize o carrossel na página */
+  margin: 0 auto;
   position: relative;
 }
 
@@ -11,7 +11,7 @@
 
 .carousel-container .carousel-inner {
   width: 100%;
-  max-height: 500px; /* Defina o valor máximo que você deseja para a altura do carrossel */
+  max-height: 500px;
 }
 
 .carousel-container .carousel-inner .carousel-item {
