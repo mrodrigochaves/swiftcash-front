@@ -1,0 +1,24 @@
+.container {
+  padding: 20px;
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .credit-solution {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

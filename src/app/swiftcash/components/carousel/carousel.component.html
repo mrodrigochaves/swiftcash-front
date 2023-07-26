@@ -1,0 +1,8 @@
+<p>carousel works!</p>
+<div class="carousel-container">
+  <carousel>
+    <slide *ngFor="let slide of slides">
+      <img [src]="slide.image" [alt]="slide.text" />
+    </slide>
+  </carousel>
+</div>
