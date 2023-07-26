@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './swiftcash/containers/home/home.component';
-import { LoginComponent } from './swiftcash/containers/login/login.component';
-import { TaxComponent } from './swiftcash/containers/tax/tax.component';
-import { SolutionComponent } from './swiftcash/containers/solution/solution.component';
-import { HelpComponent } from './swiftcash/containers/help/help.component';
+import { LoginComponent } from './swiftcash/components/login/login.component';
+import { TaxComponent } from './swiftcash/components/tax/tax.component';
+import { SolutionComponent } from './swiftcash/components/solution/solution.component';
+import { HelpComponent } from './swiftcash/components/help/help.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
