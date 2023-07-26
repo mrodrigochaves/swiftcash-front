@@ -6,13 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppImportsModule } from './shared/app-imports/app-imports.module';
 import { HttpClientModule } from '@angular/common/http';
-import { FooterComponent } from './swiftcash/containers/footer/footer.component';
-import { HeaderComponent } from './swiftcash/containers/header/header.component';
+import { FooterComponent } from './swiftcash/components/footer/footer.component';
+import { HeaderModule } from './swiftcash/components/header/header.module';
+import { CarouselModule } from '../app/swiftcash/components/carousel/carousel.module'
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     FooterComponent,
   ],
   imports: [
@@ -20,7 +21,9 @@ import { HeaderComponent } from './swiftcash/containers/header/header.component'
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
-    AppImportsModule
+    AppImportsModule,
+    HeaderModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
