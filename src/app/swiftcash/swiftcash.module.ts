@@ -6,6 +6,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -13,7 +14,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
   ],
   imports: [
     CommonModule,
-    CarouselModule.forRoot()
+    CarouselModule
   ]
 })
 export class SwiftCashModule { }
