@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './swiftcash/containers/home/home.component';
+import { HomeComponent } from './swiftcash/features/home/home.component';
 import { LoginComponent } from './swiftcash/components/login/login.component';
 import { TaxComponent } from './swiftcash/components/tax/tax.component';
 import { SolutionComponent } from './swiftcash/components/solution/solution.component';
@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'tax', component: TaxComponent },
   { path: 'solution', component: SolutionComponent },
   { path: 'help', component: HelpComponent },
-  { path: 'swiftcash', loadChildren: () => import('./swiftcash/swiftcash.module').then(m => m.SwiftCashModule) },
+  { path: 'swiftcash', loadChildren: () => import('./swiftcash/shared/shared.module').then(m => m.SwiftCashModule) },
 ];
 
 @NgModule({
